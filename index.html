@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav_bar">
+        <ul class="logo">
+            <li><img class="airplane_img" src="img/airplane2.png"></li>
+            <li><h2>Travel Diary</h2></li>
+        </ul>
+        <ul class="nav_menu">
+            <li><a href="#">Planner</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#Kyoto">Kyoto</a></li>
+            <li><a href="#Osaka">Osaka</a></li>
+        </ul>
+        <ul class="nav_menu2">
+            <li><a href="#home">home</a></li>
+            <li><a href="#">home2</a></li>
+        </ul>
+    </nav>
+
+    <img id="home" class="main_img" src="img/main_img.jpg">
+
+    <div class="title fade_left"><h1 class="font_Caveat">Travel Diaray</h1></div>
+
+    <div><a href="#home"><img class="home_btn" src="img/airplane2.png"></a></div>
+
+    <div class="space"></div>
+
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">
+            <table>
+                <tr>
+                    <td><a href="#Kyoto"><img class="fade_top" src="img/japen1.jpg"></a></td>
+                    <td><a href="#Osaka"><img class="fade_top" src="img/japen2.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td><h2>Kyoto</h2></td>
+                    <td><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Osaka</h2></td>
+                </tr>
+            </table>
+        </div>
+        <div class="item">C</div>
+
+        <div class="item">D</div>
+        <div class="item">
+            <div class="fade_top">
+                <h1>Kyoto</h1>
+                <h2>Day 1</h2>
+            </div>
+            <table>
+                <tr>
+                    <td><a id="Kyoto" href="#Kyoto"><img class="fade_left" src="img/japen1.jpg"></a></td>
+                    <td>
+                        <div class="fade_right">
+                            <h3>교토</h3>
+                            <p>내용</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>장소</h3>
+                        <p class="appear_text">내용</p>
+                    </td>
+                    <td><a href="#Kyoto"><img class="fade_right" src="img/japen1.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#Kyoto"><img class="fade_left" src="img/japen1.jpg"></a></td>
+                    <td>
+                        <h3>장소</h3>
+                        <p class="appear_text">내용</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="item">F</div>
+
+        <div class="item">G</div>
+        <div class="item-slider">
+            <div class="box">
+                <div class="slider">
+                    <div class="slides">
+                    <!-- 각 이미지 슬라이드 -->
+                        <img src="img/japen1.jpg" alt="이미지 1" width="400px">
+                        <img src="img/japen2.jpg" alt="이미지 2" width="400px">
+                        <img src="img/japen3.jpg" alt="이미지 3" width="400px">
+                    </div>
+                </div>
+            </div>
+            <button id="PrevBtn">&nbsp;&nbsp;<&nbsp;&nbsp;</button>
+            <button id="NextBtn">&nbsp;&nbsp;>&nbsp;&nbsp;</button>
+        </div>
+        <div class="item">I</div>
+    </div>
+
+    
+
+    <div class="space"></div>
+
+    <div id="Osaka"><h1>Osaka</h1></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
